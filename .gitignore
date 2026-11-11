@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+.aws/
+
+# Logs
+*.log
+*.log.*
+
+# Generated data and outputs
+data/
+downloads/
+processed/
+reports/
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
